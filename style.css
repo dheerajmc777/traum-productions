@@ -12,7 +12,7 @@
 .compname{
     font-size: 200px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    animation:blink 2s linear infinite;
+    animation:blink 12s linear infinite;
     color: rgb(255, 247, 247);
     position: absolute;
     top: 2100px;
@@ -24,12 +24,12 @@ img{
 }
 
 span{
-    animation:blink 3s alternate infinite;
+    animation:blink 12s linear infinite;
     color: rgb(255, 255, 255);
 }
 
 @keyframes blink{
-    0%{pacity: 0; }
+    0%{opacity: 0; }
     25%{opacity: 0.25;};
     50%{opacity: .5;};
     100%{opacity: 1;}
